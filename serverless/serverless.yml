@@ -1,0 +1,20 @@
+service: my-service
+
+frameworkVersion: ">=1.1.0 <=3.50.0"
+plugins:
+  # - serverless-localstack
+  - serverless-offline
+
+provider:
+  name: aws
+  runtime: python3.8
+  stage: dev
+ 
+functions:
+  myfunction:
+    handler: myfunction.hello   #  <file name>.<function name>
+    name: myfunction
+custom:
+  localstack:
+    debug: true
+    endpointFile: localstack_endpoints.json
