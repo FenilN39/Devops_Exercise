@@ -1,6 +1,6 @@
 # ScanBuy Internship Task
 
-Here are instruction for running files, for each task, Go to each folder and run commands to get the output.
+Here are some instruction for running files, for each task, Go to each folder and run commands to get the output.
 
 # Task 1:  
 - Docker folder
